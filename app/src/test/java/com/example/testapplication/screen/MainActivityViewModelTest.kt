@@ -9,18 +9,18 @@ import org.junit.Test
  * @Author: Dilip
  * @Date: 16/10/21
  */
-class MainActivityViewModelTest{
+class MainActivityViewModelTest {
 
     lateinit var mainActivityViewModel: MainActivityViewModel
 
     @Before
-    fun setUp(){
+    fun setUp() {
         mainActivityViewModel = MainActivityViewModel()
     }
 
     @Test
-    fun callAPiTest(){
-        mainActivityViewModel.callAcromine("ams","")
+    fun callAPiTest() {
+        mainActivityViewModel.callAcromine("ams", "")
         var resultValue = mainActivityViewModel.responseModel.getOrWaitValue()
         assertThat(resultValue).isEqualTo(true)
     }
