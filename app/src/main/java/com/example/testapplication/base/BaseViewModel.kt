@@ -13,7 +13,7 @@ import io.reactivex.disposables.Disposable
  */
 abstract class BaseViewModel : ViewModel() {
 
-    public lateinit var subscription: Disposable
+    lateinit var subscription: Disposable
 
     override fun onCleared() {
         super.onCleared()

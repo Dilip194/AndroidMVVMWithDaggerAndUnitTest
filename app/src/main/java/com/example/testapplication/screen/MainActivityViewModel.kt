@@ -26,7 +26,7 @@ class MainActivityViewModel : BaseViewModel() {
 
     val loadingVisibility: MutableLiveData<Int> = MutableLiveData()
     val errorMessage:MutableLiveData<Int> = MutableLiveData()
-    lateinit var responseModel :MutableLiveData<List<ResponseModel>>
+    var responseModel :MutableLiveData<List<ResponseModel>> = MutableLiveData()
     val errorClickListener = View.OnClickListener { callAcromine(enteredSf,enteredLf) }
 
 
@@ -59,7 +59,7 @@ class MainActivityViewModel : BaseViewModel() {
     }
 
     private fun onRetrieveAcromineListError(throwable: Throwable) {
-        //check the error code and ass the error as per the needs
+        //check the error code and add the error as per the needs
         errorMessage.value = R.string.post_error
     }
 }

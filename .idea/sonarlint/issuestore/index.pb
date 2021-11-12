@@ -1,3 +1,21 @@
 
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+A
+gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
+p
+@app/src/main/java/com/example/testapplication/TestApplication.kt,d/2/d29b82283d7ce773665557f2f1b062b84eeb9a7d
+{
+Kapp/src/main/java/com/example/testapplication/network/model/AcromineData.kt,f/8/f8a7ad51adc3e89c5f9a17d84bf66b48607c6e08
+w
+Gapp/src/main/java/com/example/testapplication/network/model/Acromine.kt,e/f/ef4f42b2b81d0eb3c0d5b55257ac72bb60cb95e8
+€
+Papp/src/main/java/com/example/testapplication/network/model/AcromineViewModel.kt,f/e/fea7a7fd6e45a0d4b0e1810003de83092ee1b945
+p
+@app/src/test/java/com/example/testapplication/ExampleUnitTest.kt,d/6/d6c8430ab440a4bfe2c60c9b733b1660c9bb4d53
+p
+@app/src/main/java/com/example/testapplication/utils/Validator.kt,8/0/80bb52db2c12b0cb79ae9141698bb72a5155e1aa
+
+Qapp/src/test/java/com/example/testapplication/screen/MainActivityViewModelTest.kt,5/3/530d0f764984227eced9530250183a2302480ff9
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+{
+Kapp/src/androidTest/java/com/example/testapplication/screen/LiveDatatest.kt,e/c/ec31acb2e576e1e5ab7f0c8abdd0e8270ad35487
